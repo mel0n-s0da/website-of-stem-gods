@@ -1,24 +1,23 @@
-/*
+
 img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
-*/
 
 .banner {
   display: flex;
-  justify-content: center;
-  //justify-content: space-between;
+  //justify-content: center;
+  justify-content: space-between;
   //font-size: 100%;
-  //margin-right: 5%;
-  //margin-left: 5%;
+  margin-right: 3%;
+  margin-left: 3%;
   max-width: 100%;
 }
 
 .face-block {
-  margin-left: 2%;
-  margin-right: 2%;
   font-size: 120%;
   max-width: 100%;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 
