@@ -1,3 +1,5 @@
+
+
 var topDisplay = document.getElementById('nameDisplay');
 var faceBlocks = Array.from(document.getElementsByClassName('face-block'));
 // console.log(faceBlocks);
@@ -18,25 +20,19 @@ faceBlocks.map( block => {
         switch (type) {
           case "IMG":
             key = e.target.id; 
-            console.log(e.target.innerText);
-            console.log("it's an image :D \n");
             break; 
           case "B":
-            key =  (((text.split(" "))).at(-1)).toLowerCase; // "Amalie Emmy Noether" -> "noether"
-            console.log(e.target.id); 
-            console.log(e.target.innerText);
-            console.log("it's some text :D \n");
+            key =  (((text.split(" "))).at(-1)).toLowerCase(); // "Amalie Emmy Noether" -> "noether"
             break; 
           case "DIV":
-            key = e.target.id; 
-            console.log(e.target.id); 
-            console.log(e.target.innerText);
-            console.log("it's div :D \n");
+            key = e.target.id;
             break; 
           default:
             console.log("yay life");
         } 
         console.log(key);
+
+        // parallel array time 
 
         /*
         switch(person){
@@ -54,3 +50,4 @@ faceBlocks.map( block => {
         */
     });
 });
+
