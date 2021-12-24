@@ -1,7 +1,13 @@
 #nameDisplay {
   text-align: center;
   background-color: lightgrey;
-  height: 5%; 
+  height: 10%; 
+  font-weight: bold;
+  font-size: 200%;
+}
+
+#imageDisplay {
+  background-color: lightgrey;
 }
 
 .people {
@@ -54,3 +60,4 @@ img {
   margin-top: 3%;
   cursor: pointer;  
 }
+ 
