@@ -1,13 +1,25 @@
+#displayTogether {
+  background-color: white;
+}
+
 #nameDisplay {
   text-align: center;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */ 
   height: 10%; 
   font-weight: bold;
   font-size: 200%;
 }
 
 #imageDisplay {
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
+  display: flex;
+  justify-content: center;
+}
+
+#textDisplay {
+  /* background-color: lightgrey; */
+  display: flex;
+  justify-content: center;
 }
 
 .people {
@@ -61,3 +73,5 @@ img {
   cursor: pointer;  
 }
  
+
+
