@@ -1,0 +1,73 @@
+#displayTogether {
+  background-color: white;
+}
+
+#nameDisplay {
+  text-align: center; 
+  height: 10%; 
+  font-weight: bold;
+  font-size: 200%;
+}
+
+#imageDisplay { 
+  display: flex;
+  justify-content: center;
+}
+
+#textDisplay { 
+  text-align: center;
+}
+
+.people {
+  display: grid; 
+  grid-gap: 3%; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.face-block:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.2s ease-in-out; 
+}
+
+#title {
+  display: flex;
+  margin-top: 3%;
+  font-size: 300%;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.displayName {
+  font-size: 200%;
+}
+
+.banner {
+  display: flex;
+  /* justify-content: center; */ 
+  justify-content: space-between;
+  /* font-size: 100%; */ 
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  max-width: 100%;
+}
+
+.face-block {
+  justify-content: center;
+  text-align: center;
+  font-size: 120%;
+  /* max-width: 100%; */ 
+  /* margin-right: 3%; */ 
+  /* margin-left: 3%; */ 
+  margin-top: 3%;
+  cursor: pointer;  
+}
+ 
+
+
