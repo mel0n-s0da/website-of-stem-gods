@@ -1,0 +1,49 @@
+img {
+  transition:all 2.2s; 
+}
+
+#title {
+  display: flex;
+  margin-top: 3%;
+  font-size: 400%;
+  justify-content: center;
+}
+
+.people {
+  display: grid; 
+  grid-column-gap: 3%; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-right: 3%;
+  margin-left: 3%; 
+}
+
+.face-block {
+  justify-content: center;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 3%;
+  cursor: pointer;   
+  background-color: white;  
+}
+
+.face-block:hover {
+  background-color: #323330; 
+  color: white;
+  transition: 0.1s ease-in-out; 
+}
+
+.photo-block {
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: cover; 
+}
+
+.inner-block {  
+  overflow: hidden; 
+  justify-content: center; 
+}
+
+.inner-block:hover .photo-block, .inner-block:focus .photo-block {
+  transform: scale(1.5);
+  transition: all 1.5s;
+}
